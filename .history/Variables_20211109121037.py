@@ -9,7 +9,7 @@ var6 = "40"
 print(var1)
 print(var2)
 print(var3)
-print(10 * var4)   # Printing the output 10 times
+print(10 * var4)   # Printing the output 10 times 
 
 # By doing this we can find the type of the variable //
 
@@ -19,22 +19,22 @@ print(type(var3))
 print(var1 + var4)   # Adding two strings
 print(var1 + var5)
 
-# Type casting :
+# Type casting : 
 
 """
 str()
 int()
 float()
 """
-print(int(var5) + int(var6))  # changed the string to int
+print(int(var5) + int(var6))  # changed the string to int 
 
 inpnum = input()  # Taking the input //
-print("You entered this :", int(inpnum))
+print("You entered this :" , int(inpnum))
+
+def joke() :
+    print("This is a joke fumction")
 
 
-def joke(s):
-    print("This is a joke function")
-    print(s)
 
 
-# Write a program to add three numbers
+# Write a program to add three numbers 

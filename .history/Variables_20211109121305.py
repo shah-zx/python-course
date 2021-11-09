@@ -34,7 +34,6 @@ print("You entered this :", int(inpnum))
 
 def joke(s):
     print("This is a joke function")
-    print(s)
 
 
 # Write a program to add three numbers
