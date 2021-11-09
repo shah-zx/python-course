@@ -17,7 +17,7 @@ import time  # Imported the time module
 initial2 = time.time()   # Timing at this time 
 for i in range(45):
     print("Hello there : " , i)
-    time.sleep(1)   # This will help in stopping the program for some time 
+    time.sleep(1)
 print("For loop ran in : " , {time.time()-initial2} , "seconds")
 
 
