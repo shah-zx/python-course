@@ -7,7 +7,7 @@
 # class student:
 #     pass
 
-# stud = student()  # Creating ther instances/variables/objects of these classes
+# stud = student()  # Creating ther instances/variables of these classes
 # stud2 = student()  
 
 # stud.name = "shahnawaz"
