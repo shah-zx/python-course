@@ -39,13 +39,7 @@ for i in range(5):
 # The filter function :
 # It gives a list of elements on which a function returns true
 
-list = [1,2,3,4,5,6]
 
-def greater(num) :
-    return num > 5 
-
-gt_then = list(filter(greater, list))   # First convert the variable into a list , then passing the function and list.
-print(gt_then)
-
+    
     
 
