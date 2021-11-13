@@ -7,8 +7,3 @@ class Home:
     def printgood(string):
         print("This is good" + string)
         return 34
-
-
-Flat = Home()
-
-Home.printgood("Hello there")

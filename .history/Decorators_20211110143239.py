@@ -34,7 +34,7 @@ def dec1(func1):
         print("Harry is a good boy")
         
         
-@dec1
+@dec1()
 def who_is_harry():
     print("Harry is an instructor")
 

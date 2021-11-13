@@ -59,20 +59,17 @@ class User:
         
     def from_str(cls , string):
          params = string.split("-")
-         return cls(params[0] , params[1]) , params[2]
-     
-     
+        
 shahnawaz = User("shahnawaz", "hello@12" , "sha12@gmail.com")
 hamza = User("hamza", "hell@12" , "ha12@gmail.com")
-Karan = User.from_str("karan-hell@480-Student")
+Karan = User.from_str("karan-480-Student")
 
 
 
-print(Karan.salary)
+
 print(shahnawaz.pwd)
 print(hamza.email)
 print(User.no_of_leaves)
-
 
 
         

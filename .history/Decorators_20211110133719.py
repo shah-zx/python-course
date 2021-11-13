@@ -27,19 +27,3 @@ def executor(func):
     
 executor(print)  # We gave the print fucntion in the argument and we got the msg prnted
 
-def dec1(func1):
-    def nowexec():
-        print("Executing now")
-        func1()
-        print("Harry is a good boy")
-        
-        
-@dec1
-def who_is_harry():
-    print("Harry is an instructor")
-
-
-# who_is_harry = dec1(who_is_harry) # This line can also be swapped with @dec1
-who_is_harry()
-
-        

@@ -9,6 +9,3 @@ class Home:
         return 34
 
 
-Flat = Home()
-
-Home.printgood("Hello there")

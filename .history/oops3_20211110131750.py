@@ -54,25 +54,17 @@ class User:
         print(f"The user details are : 1) name : {name},2) password : {pwd}, 3) email : {email}")
         
         # A class method :
-    def change_leaves(cls , newleaves):   # This will change the no_of_leaves for the User class 
+    def change_leaves(cls , newleaves):
          cls.no_of_leaves = newleaves
         
-    def from_str(cls , string):
-         params = string.split("-")
-         return cls(params[0] , params[1]) , params[2]
-     
-     
+        
+        
 shahnawaz = User("shahnawaz", "hello@12" , "sha12@gmail.com")
 hamza = User("hamza", "hell@12" , "ha12@gmail.com")
-Karan = User.from_str("karan-hell@480-Student")
 
-
-
-print(Karan.salary)
 print(shahnawaz.pwd)
 print(hamza.email)
 print(User.no_of_leaves)
-
 
 
         

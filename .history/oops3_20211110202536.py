@@ -64,7 +64,7 @@ class User:
      
 shahnawaz = User("shahnawaz", "hello@12" , "sha12@gmail.com")
 hamza = User("hamza", "hell@12" , "ha12@gmail.com")
-Karan = User.from_str("karan-hell@480-Student")
+Karan = User.from_str("karan-480-Student")
 
 
 

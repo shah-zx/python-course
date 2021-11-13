@@ -33,13 +33,10 @@ def dec1(func1):
         func1()
         print("Harry is a good boy")
         
-        
-@dec1
 def who_is_harry():
     print("Harry is an instructor")
 
 
-# who_is_harry = dec1(who_is_harry) # This line can also be swapped with @dec1
+who_is_harry = dec(who_is_harry)
 who_is_harry()
-
         
