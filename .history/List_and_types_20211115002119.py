@@ -28,7 +28,7 @@ print(numbers)  # This will give us the numbers
 print(numbers[0:5]) # This will give us the whole list and numbers[:] this is the same //
 print(numbers[1:]) # This will give the list after skipping the first element as it automatically takes 5 as the 
 print(numbers[2:]) # This will give the list after skipping first two element //
-print(numbers[3:]) # This will give the list after skipping the first three element //
+print(numbers[3:]) # This will give the list after skipping the first element //
 print(numbers[1:3]) # This will take the number at position 1 and not the index of the last index given 
 
 # Extended slicing 

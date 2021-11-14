@@ -39,10 +39,5 @@ class Branch(Tree):
 
 class Fruit(Branch):
     color = "red"
-    def intro(self):
-        return f"Hello there , i am an apple with color {self.color}"
     
         
-
-f = Fruit()
-print(f.color)

@@ -1,0 +1,17 @@
+# Public , protected and private variables 
+
+
+class Employee:
+    no_of_leaves = 10
+    
+    def  __init__(self , aname , asalary , aposition , agrade ):    # This is the init function which helps us in making the consructor and it takes the arguments
+        self.name = aname     # Now this self will automatically change to the object of the class in which the name variable can be initialized as name
+        self.salary = asalary
+        self.position =aposition
+        self.grade =agrade
+        
+        
+class Programmer(Employee) :
+    # no_of_games = 6
+    def printprog(self):
+        return f"The name is : {self.name}. The salary is : {self.salary}. The position is : {self.position}. The grade is : {self.grade}"

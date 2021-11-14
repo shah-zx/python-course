@@ -35,14 +35,13 @@ class Tree:
 class Branch(Tree):
     total_branches = 60
     def intro(self):
-        return f"Hello there , i am the branch fo apple tree and there are {self.total_branches} branches in the tree"
+        return f"Hello there , i am the branch and there are {self.total_branches} branches in the tree"
+    
+
+        
+    pass
 
 class Fruit(Branch):
     color = "red"
-    def intro(self):
-        return f"Hello there , i am an apple with color {self.color}"
     
         
-
-f = Fruit()
-print(f.color)

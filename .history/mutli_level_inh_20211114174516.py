@@ -43,6 +43,5 @@ class Fruit(Branch):
         return f"Hello there , i am an apple with color {self.color}"
     
         
-
 f = Fruit()
 print(f.color)
