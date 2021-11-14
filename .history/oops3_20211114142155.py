@@ -73,11 +73,7 @@ class User:
 # print(User.no_of_leaves)
 
 
-# Here inheritance is being used 
-
-
 class Programmer(Employee) :
-    # no_of_games = 6
     def printprog(self):
         return f"The name is : {self.name}. The salary is : {self.salary}. The position is : {self.position}. The grade is : {self.grade}"
     pass
@@ -87,43 +83,7 @@ sam = Programmer("sam" , 800 , "data scientist" , "A")
 print(sam.print_details())
 
 
-class Player:
-    no_of_games = 4
-    def __init__(self , name , game):
-        self.name = name
-        self.game = game
-        
-    def printdetails(self) :
-        return f"The name is : {self.name}. The game is : {self.game}."
-    
-    
-shubham = Player("shubham", ["Badminton"])
 
-
-# Multiple Inheritance
-
-
-class CoolProgrammer(Employee , Player):   # Now CoolProgrammer is inheriting the other classes through multiple inheritance
-    # no_of_games = 2
-    pass
-
-
-samuel = CoolProgrammer("samuel", 455 , "AI engineer" , "A")
-det = samuel.print_details()
-print(samuel.no_of_games)
-print(det)
-
-
-
-
-
-
-
-
-    
-
-        
-        
 
         
 

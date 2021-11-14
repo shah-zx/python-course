@@ -99,10 +99,6 @@ class Player:
     
 shubham = Player("shubham", ["Badminton"])
 
-
-# Multiple Inheritance
-
-
 class CoolProgrammer(Employee , Player):   # Now CoolProgrammer is inheriting the other classes through multiple inheritance
     # no_of_games = 2
     pass
@@ -112,7 +108,6 @@ samuel = CoolProgrammer("samuel", 455 , "AI engineer" , "A")
 det = samuel.print_details()
 print(samuel.no_of_games)
 print(det)
-
 
 
 

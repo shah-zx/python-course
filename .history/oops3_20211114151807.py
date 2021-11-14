@@ -77,7 +77,6 @@ class User:
 
 
 class Programmer(Employee) :
-    # no_of_games = 6
     def printprog(self):
         return f"The name is : {self.name}. The salary is : {self.salary}. The position is : {self.position}. The grade is : {self.grade}"
     pass
@@ -97,30 +96,7 @@ class Player:
         return f"The name is : {self.name}. The game is : {self.game}."
     
     
-shubham = Player("shubham", ["Badminton"])
-
-
-# Multiple Inheritance
-
-
-class CoolProgrammer(Employee , Player):   # Now CoolProgrammer is inheriting the other classes through multiple inheritance
-    # no_of_games = 2
-    pass
-
-
-samuel = CoolProgrammer("samuel", 455 , "AI engineer" , "A")
-det = samuel.print_details()
-print(samuel.no_of_games)
-print(det)
-
-
-
-
-
-
-
-
-    
+shubham = Player("shubham", "Badminton")
 
         
         
