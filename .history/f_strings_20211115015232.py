@@ -16,6 +16,6 @@ b = f"This is the mutliplication of the numbers : 4 and 5 : {4*5} and {math.cos(
 print(b) 
 
 c  = f"Hello there"
-print(c)
+
 # F strings improve the readability of the string 
 
