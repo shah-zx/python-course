@@ -4,7 +4,7 @@
 class Employee:
     no_of_leaves = 10
     _protec = 12
-    __private = 90
+    __private = True
     
     def  __init__(self , aname , asalary , aposition , agrade ):  # This is the init function which helps us in making the consructor and it takes the arguments
         self.name = aname     # Now this self will automatically change to the object of the class in which the name variable can be initialized as name
@@ -22,9 +22,6 @@ class Programmer(Employee) :
 emp = Employee("shahnawaz",1200000 , "Devops engineer" ,"A")
 
 print(emp._protec)  # This is a protected variable 
-
 # We cannot access the private variable 
-print(emp._Employee__private) # This is a private variable and python does name mangling so that it cant be accessed easily 
-
 
 

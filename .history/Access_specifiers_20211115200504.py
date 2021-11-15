@@ -22,9 +22,6 @@ class Programmer(Employee) :
 emp = Employee("shahnawaz",1200000 , "Devops engineer" ,"A")
 
 print(emp._protec)  # This is a protected variable 
-
 # We cannot access the private variable 
-print(emp._Employee__private) # This is a private variable and python does name mangling so that it cant be accessed easily 
-
-
+print(emp.Employee__private) # This is a private variable
 
