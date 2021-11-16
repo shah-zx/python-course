@@ -1,0 +1,25 @@
+# Here we learn about Abstract classes 
+
+# Our base class :
+from abc import ABCMeta , abstractmethod
+
+class Shape :
+    def printArea(self):
+        return 0
+    
+
+
+class rectangle(Shape):
+    
+    type = "rectangle" 
+    sides = 4
+    def __init__(self):
+        self.length = 12
+        self.width = 8
+    
+    def printArea(self):
+        return f"Area is : {self.length} * {self.width}"
+    
+    
+    
+    
