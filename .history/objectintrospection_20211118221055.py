@@ -40,7 +40,8 @@ import inspect  # This is the inspect module
 
 # print(inspect.getmembers(Rohan))
 
-# print(inspect.getmembers(User))
+print(inspect.getmembers(User))
+
 
 
      

@@ -62,10 +62,10 @@ class User:
          return cls(params[0] , params[1]) , params[2]
      
      
-shahnawaz = User("shahnawaz", "hello@12" , "sha12@gmail.com")
+# shahnawaz = User("shahnawaz", "hello@12" , "sha12@gmail.com")
 # hamza = User("hamza", "hell@12" , "ha12@gmail.com")
 # Karan = User.from_str("karan-hell@480-Student")
-# print(shahnawaz.info())
+
 
 # print(Karan.salary)
 # print(shahnawaz.pwd)

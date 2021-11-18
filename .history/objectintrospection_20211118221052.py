@@ -38,9 +38,10 @@ import inspect  # This is the inspect module
 
 # There are four main kinds of services provided by this module: type checking, getting source code, inspecting classes and functions, and examining the interpreter stack.
 
-# print(inspect.getmembers(Rohan))
+print(inspect.getmembers(Rohan))
 
-# print(inspect.getmembers(User))
+print(inspect.getmembers(User))
+
 
 
      
