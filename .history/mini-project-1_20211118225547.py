@@ -6,10 +6,6 @@
 # method for : add book
 # method for : return book
 
-
-print("welcome to our library management system !!")
-print("--------------------******--------------------")
-
 class Library:
     def __init__(self, listofbooks, library_name):
         self.alistofbooks = listofbooks
