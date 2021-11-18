@@ -10,12 +10,3 @@ class Employee():
         
     def explain(self):
         return f"This employee is {self.fname} {self.lname}"
-   
-    def printDetails(self):
-        pass
-   
-   
-shahnawaz_sayyed = Employee("shahnawaz" , "sayyed")
-hamza_sayyed = Employee("Hamza", "sayyed")
-
-print(shahnawaz_sayyed.explain())

@@ -16,6 +16,4 @@ class Employee():
    
    
 shahnawaz_sayyed = Employee("shahnawaz" , "sayyed")
-hamza_sayyed = Employee("Hamza", "sayyed")
-
-print(shahnawaz_sayyed.explain())
+hamza_sayyed = Employee()

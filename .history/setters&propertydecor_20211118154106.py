@@ -15,7 +15,5 @@ class Employee():
         pass
    
    
-shahnawaz_sayyed = Employee("shahnawaz" , "sayyed")
-hamza_sayyed = Employee("Hamza", "sayyed")
-
-print(shahnawaz_sayyed.explain())
+shahnawaz_sayyed = Employee()
+hamza_sayyed = Employee()
