@@ -17,9 +17,7 @@ class Library:
 
     def info(alibrary_name, alistofbooks):
         print(f"The name of the library is : {alibrary_name} and these are the number of books : {alistofbooks}")
-        
-    def display_books():
-        pass    
+
 
 # Nl = Library("eight thousand" , "National Library")
 # print(Nl.alistofbooks)
