@@ -37,7 +37,5 @@ shahnawaz_sayyed.fname = "shanu"  # This will not be able to change the name of 
 print(shahnawaz_sayyed.email())
 
 shahnawaz_sayyed.fname = "shanu"
-shahnawaz_sayyed.fname = "US"
-print(shahnawaz_sayyed.email)
-
+print(shahnawaz_sayyed.fname)
 

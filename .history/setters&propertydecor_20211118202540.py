@@ -40,4 +40,3 @@ shahnawaz_sayyed.fname = "shanu"
 shahnawaz_sayyed.fname = "US"
 print(shahnawaz_sayyed.email)
 
-

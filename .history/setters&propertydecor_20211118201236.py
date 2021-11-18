@@ -36,8 +36,5 @@ print(shahnawaz_sayyed.explain())
 shahnawaz_sayyed.fname = "shanu"  # This will not be able to change the name of the person
 print(shahnawaz_sayyed.email())
 
-shahnawaz_sayyed.fname = "shanu"
-shahnawaz_sayyed.fname = "US"
-print(shahnawaz_sayyed.email)
 
 

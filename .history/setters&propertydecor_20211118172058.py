@@ -18,14 +18,6 @@ class Employee():
     # @property
     def email(self):
         return self.email
-     
-    @email.setter
-    def email(self , string): 
-        names = string.split("@")[0]
-        self.fname = names.split(".")[0]
-        self.lname = names.split(",")[1]
-    
-    
     
 shahnawaz_sayyed = Employee("shahnawaz" , "sayyed")  # Here we have created the instances 
 hamza_sayyed = Employee("Hamza", "sayyed")
@@ -35,9 +27,5 @@ print(shahnawaz_sayyed.explain())
 
 shahnawaz_sayyed.fname = "shanu"  # This will not be able to change the name of the person
 print(shahnawaz_sayyed.email())
-
-shahnawaz_sayyed.fname = "shanu"
-shahnawaz_sayyed.fname = "US"
-print(shahnawaz_sayyed.email)
 
 
