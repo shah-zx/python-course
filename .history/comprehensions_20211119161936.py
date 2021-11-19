@@ -55,36 +55,17 @@
 
 # Set comprehension :
 
-# dresses = {dress for dress in ["dress1"  , "dress2" , "dress3" , "dress1" , "dress2" , "dress3"] }
+dresses = {dress for dress in ["dress1"  , "dress2" , "dress3" , "dress1" , "dress2" , "dress3"] }
 # print(dresses)
 
-# print(type(dresses))
+print(type(dresses))
 
 # Generator comprehension : 
 
-# evens = (i for i in range(100) if i % 2 == 0)
-# print(evens)
-# print(type(evens))
+evens = (i for i in range(100) if i % 2 == 0)
+print(evens)
+print(type(evens))
 
-
-set = {}
-list = []
-
-s = int(input())
-print("Enter the numbers you want :")
-print("Which comprehension do you want ?")
-m = int(input())
-
-for i in range(0,s):
-    if m == "Set":
-        for j in range(s):
-          set.append(j)     
-    elif m == "List":
-          list.append(s)          
-          
-    else:
-        print("Invalid comprehension given")
-
-          
-            
+s = input()
+print(s)
 

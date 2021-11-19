@@ -82,9 +82,8 @@ for i in range(0,s):
     elif m == "List":
           list.append(s)          
           
-    else:
-        print("Invalid comprehension given")
+    else :
+        return 0
 
           
             
-

@@ -68,8 +68,6 @@
 
 
 set = {}
-list = []
-
 s = int(input())
 print("Enter the numbers you want :")
 print("Which comprehension do you want ?")
@@ -79,12 +77,4 @@ for i in range(0,s):
     if m == "Set":
         for j in range(s):
           set.append(j)     
-    elif m == "List":
-          list.append(s)          
-          
-    else:
-        print("Invalid comprehension given")
-
-          
             
-
