@@ -11,7 +11,7 @@ else:
     print("This will run only if the except is not  running")    
     
 finally :
-    print("Run this anyway")  # This is user for code clean up and will always execute 
+    print("Run this anyway")  # This is user for code clean up 
     f1.close()
     
     
