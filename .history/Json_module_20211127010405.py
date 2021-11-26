@@ -1,0 +1,26 @@
+# Here we will learn about the json module 
+
+# JSON - Java script object notation
+
+import json
+
+# json.loads() method can be used to parse a valid JSON string and convert it into a Python Dictionary. It is mainly used for deserializing native string, byte, or byte array which consists of JSON data into Python Dictionary.
+
+# data = '{"var1": "shahnawaz sayyed" , "var2": 11}'
+# parse = json.loads(data)   # Converted the string to parsed data
+# print(parse)
+
+
+
+data2 = {
+    
+    "channel_name" : "shahnawaz sayyed",
+    "cars" : ["BMW" , "Audi Q7" , "Ferrari" , "Aston Martin"] ,
+    "fridge" : ('roti' , 'daaal')
+    
+}
+
+jscomp = json.dumps(data2)
+print(jscomp)
+
+# The dump() method is used when the Python objects have to be stored in a file.	The dumps() is used when the objects are required to be in string format and is used for parsing, printing, etc, .
