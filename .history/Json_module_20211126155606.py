@@ -22,5 +22,3 @@ data2 = {
 
 jscomp = json.dumps(data2)
 print(jscomp)
-
-# The dump() method is used when the Python objects have to be stored in a file.	The dumps() is used when the objects are required to be in string format and is used for parsing, printing, etc, .
