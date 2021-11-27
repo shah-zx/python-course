@@ -12,10 +12,7 @@ part = '''Lorem Ipsum is simply dummy text of the printing and typesetting indus
 
 import re
 
-# patt = re.compile(r'^Lorem')  # This will find out wether the Para starts with Lorem
-# patt = re.compile(r'em*')  # This will find out the occurrences zero or more 
-# patt = re.compile(r'(em){1}|op')  # This will find out the ether em or op matching any strings
-patt = re.compile(r'\ALorem')  # Matches only at beginning of a string
+patt = re.compile(r'^Lorem')
 print(r"/n")   # This r is called raw and it does not let the escape sequences to escape 
 # /n is an escape sequence but by the use of r we can convert it into a normal string
 matches = patt.finditer(part)
