@@ -32,5 +32,4 @@ if __name__ == '__main__':
                         default='', help="This is a utility for calculation . Please contact shahnawaz sayyed")
 
     args = parser.parse_args()
-    sys.stdout.write(str(calc(args)))  # This will calculate and print the output on the command line 
-    
+    sys.stdout.write(str(calc(args)))
