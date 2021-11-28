@@ -1,6 +1,6 @@
 def searcher():   # This is our coroutine and not a function 
     import time
-    
+    import packageharry
     
     
     # Some four seconds time consuming task.
@@ -21,4 +21,4 @@ print("Searching started....")
 next(search)
 
 search.send("book")
-# packageharry.good(10)
+packageharry.good(10)
