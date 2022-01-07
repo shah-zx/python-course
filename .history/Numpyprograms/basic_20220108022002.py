@@ -8,9 +8,6 @@ print(a.ndim)   # This is used for printing the dimensions
 
 print(a.itemsize);  # this will print the size of int - 4
 
-print(a.dtype); # this will print the data type of array elements
+print(a.dtype); # this will print the data type 
 
-a = np.array([[5, 6, 9], [3, 4, 6], [1, 2, 3]] ,dtype = np.float64)
-
-print(a.dtype); # this will print the data type of the new array
 
