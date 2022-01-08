@@ -52,7 +52,7 @@ print(d)
 
 a = np.array([[0, 4], [1, 5], [2, 6], [3, 7]])
 
-a.reshape(2, 4)
+a.reshape(2,4)
 
 print(a)
 
@@ -68,24 +68,14 @@ print(a.max())
 
 print(a.min())
 
-print(a.sum(axis=0))  # will add the columns
+print(a.sum(axis=0));  # will add the columns 
 
-print(a.sum(axis=1))  # will add the rows
+print(a.sum(axis=1));  # will add the rows
 
-e = np.sqrt(a)
+e = np.sqrt(a);
 
-print(e)
+print(e);
 
 
-s = np.array([[3, 4], [5, 6]])
 
-t = np.array([[7, 8], [9, 10]])
-
-print(s + t)  # This will print the addition
-
-print(s * t)  # This will print the addition
-
-print(s / t)  # This will print the addition
-
-print(s.dot(t));
 
