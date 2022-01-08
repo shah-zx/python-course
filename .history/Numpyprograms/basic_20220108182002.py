@@ -50,24 +50,13 @@ d = np.linspace(0, 10, 4)
 print(d)
 
 
-a = np.array([[0, 4], [1, 5], [2, 6], [3, 7]])
+a = np.array([[0,4] , [1,5] , [2,6] , [3,7]]);
 
-a.reshape(2,4)
 
-print(a)
-
-f = a.ravel()
+a.reshape(1, 9)
 
 print(a)
 
-print(f)
+a.ravel()
 
-# some mathematical functions offerred by numpy :
-
-print(a.max())
-
-print(a.min())
-
-print(a.sum(axis=0));
-
-print(a.sum(axis=1));
+print(a)

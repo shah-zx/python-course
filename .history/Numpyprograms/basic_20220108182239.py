@@ -61,13 +61,3 @@ f = a.ravel()
 print(a)
 
 print(f)
-
-# some mathematical functions offerred by numpy :
-
-print(a.max())
-
-print(a.min())
-
-print(a.sum(axis=0));
-
-print(a.sum(axis=1));
