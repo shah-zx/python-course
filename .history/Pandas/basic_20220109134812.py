@@ -14,8 +14,3 @@ print(df['Station.City'][df['Data.Temperature.Avg Temp'] == 45])
 
 print(df['Data.Temperature.Max Temp'].mean())  # For dinding out average
 
-print(df['Station.Code'][df['Station.Location'] == 'Birmingham, AL'])
-
-
-
-
