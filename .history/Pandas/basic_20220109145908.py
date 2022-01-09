@@ -56,11 +56,11 @@ print(df.describe)
 
 # print(df[df['Data.Precipitation']>=0.40])
 
-# print(df[df['Data.Precipitation'] == df['Data.Precipitation'].max()])
+print(df[df['Data.Precipitation'] == df['Data.Precipitation'].max()])
 
 print(df[df['Data.Temperature.Min Temp'] <= 20])
 
-print(df['Data.Temperature.Min Temp'])
+
 
 
 

@@ -44,23 +44,7 @@ print(df[['Data.Precipitation' , 'Date.Full']])
 
 print(df['Data.Precipitation'].std())
 
-# The above is the standard deviation
 
-print(df.describe)
-
-# The above method prints the statistics of our data
-
-
-# Cnditional statements 
-
-
-# print(df[df['Data.Precipitation']>=0.40])
-
-# print(df[df['Data.Precipitation'] == df['Data.Precipitation'].max()])
-
-print(df[df['Data.Temperature.Min Temp'] <= 20])
-
-print(df['Data.Temperature.Min Temp'])
 
 
 

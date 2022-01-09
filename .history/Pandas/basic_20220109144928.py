@@ -50,17 +50,8 @@ print(df.describe)
 
 # The above method prints the statistics of our data
 
+print(df['Data.Precipitation' >= 0.25])
 
-# Cnditional statements 
-
-
-# print(df[df['Data.Precipitation']>=0.40])
-
-# print(df[df['Data.Precipitation'] == df['Data.Precipitation'].max()])
-
-print(df[df['Data.Temperature.Min Temp'] <= 20])
-
-print(df['Data.Temperature.Min Temp'])
 
 
 

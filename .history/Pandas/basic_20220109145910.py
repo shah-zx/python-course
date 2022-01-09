@@ -60,7 +60,7 @@ print(df.describe)
 
 print(df[df['Data.Temperature.Min Temp'] <= 20])
 
-print(df['Data.Temperature.Min Temp'])
+
 
 
 
