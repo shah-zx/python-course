@@ -78,9 +78,7 @@ print(df.reset_index(inplace = True))   # This will undo the indexing
 
 print(df)
 
-print(df.set_index('Data.Temperature.Max Temp' , inplace=True))  # This will convert the given attribute to index
 
-print(df)
 
 
 

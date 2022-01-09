@@ -80,7 +80,6 @@ print(df)
 
 print(df.set_index('Data.Temperature.Max Temp' , inplace=True))  # This will convert the given attribute to index
 
-print(df)
 
 
 

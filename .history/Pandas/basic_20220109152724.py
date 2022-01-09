@@ -64,24 +64,7 @@ print(df.describe)
 
 # print(df['Date.Full'][df['Data.Precipitation'] == df['Data.Precipitation'].max()])  # Finding the date 
 
-# print(df['Station.City'][df['Data.Precipitation'] == df['Data.Precipitation'].max()])
-
-# print(df.index)
-
-print(df.set_index('Date.Full' , inplace=True))  # This will convert the given attribute to index
-                        
-print(df.loc['2016-01-03'])
-
-print(df)
-
-print(df.reset_index(inplace = True))   # This will undo the indexing
-
-print(df)
-
-print(df.set_index('Data.Temperature.Max Temp' , inplace=True))  # This will convert the given attribute to index
-
-print(df)
-
+print(df['Station.City'][df['Data.Precipitation'] == df['Data.Precipitation'].max()])
 
 
 
