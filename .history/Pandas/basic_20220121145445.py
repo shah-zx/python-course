@@ -120,8 +120,8 @@ df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv')
 
 # Reading xlsx files :
 
-dx = pd.read_excel(
-    'C:\\Users\\hp\\Desktop\\python\\xlsx files\\weathstations.xlsx' , header=None)
+# dx = pd.read_excel(
+#     'C:\\Users\\hp\\Desktop\\python\\xlsx files\\weathstations.xlsx')
 # print(dx)
 
 # Understanding the use of converters
@@ -129,10 +129,10 @@ dx = pd.read_excel(
 
 def convert_zero(cell):
     if cell == "2016-01-03":
-        return "March"
+        return "NaN"
     return cell
 
 dx = pd.read_excel("C:\\Users\\hp\\Desktop\\python\\xlsx files\\weathstations.xlsx",
-                   converters={'Date.Full': convert_zero})
+                   converters={'Data.Precipitation': convert_zero})
 
 print(dx)

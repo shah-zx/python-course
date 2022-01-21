@@ -122,7 +122,7 @@ df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv')
 
 dx = pd.read_excel(
     'C:\\Users\\hp\\Desktop\\python\\xlsx files\\weathstations.xlsx' , header=None)
-# print(dx)
+print(dx)
 
 # Understanding the use of converters
 

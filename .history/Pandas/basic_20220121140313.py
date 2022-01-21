@@ -121,18 +121,6 @@ df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv')
 # Reading xlsx files :
 
 dx = pd.read_excel(
-    'C:\\Users\\hp\\Desktop\\python\\xlsx files\\weathstations.xlsx' , header=None)
-# print(dx)
-
-# Understanding the use of converters
-
-
-def convert_zero(cell):
-    if cell == "2016-01-03":
-        return "March"
-    return cell
-
-dx = pd.read_excel("C:\\Users\\hp\\Desktop\\python\\xlsx files\\weathstations.xlsx",
-                   converters={'Date.Full': convert_zero})
-
+    'C:\\Users\\hp\\Desktop\\python\\xlsx files\\weathstations.xlsx')
 print(dx)
+
