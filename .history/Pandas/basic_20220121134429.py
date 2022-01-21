@@ -114,7 +114,7 @@ df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv')
 
 # df.to_csv('Hello.csv' , columns = ['Data.Precipitation' , 'Station.City'])
 
-# df.to_csv('Hello.csv', header=False)  # Removing the header
+df.to_csv('Hello.csv', header=False)  # Removing the header
 
 # ------------------------------------------------------ #
 
@@ -123,4 +123,3 @@ df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv')
 dx = pd.read_excel(
     'C:\\Users\\hp\\Desktop\\python\\xlsx files\\weathstations.xlsx')
 print(dx)
-

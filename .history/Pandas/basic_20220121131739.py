@@ -52,7 +52,7 @@ df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv')
 # The above method prints the statistics of our data
 
 
-# Cnditional statements
+# Cnditional statements 
 
 
 # print(df[df['Data.Precipitation']>=0.40])
@@ -63,14 +63,14 @@ df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv')
 
 # print(df['Data.Temperature.Min Temp'])
 
-# print(df['Date.Full'][df['Data.Precipitation'] == df['Data.Precipitation'].max()])  # Finding the date
+# print(df['Date.Full'][df['Data.Precipitation'] == df['Data.Precipitation'].max()])  # Finding the date 
 
 # print(df['Station.City'][df['Data.Precipitation'] == df['Data.Precipitation'].max()])
 
 # print(df.index)
 
 # print(df.set_index('Date.Full' , inplace=True))  # This will convert the given attribute to index
-
+                        
 # print(df.loc['2016-01-03'])
 
 # print(df)
@@ -83,14 +83,15 @@ df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv')
 
 # print(df)
 
-# df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv' , header = 1)  # This will skip first row and print other rows
+# df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv' , header = 1)  # This will skip first row and print other rows 
 
 
-# df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv' , header = None)  # This will skip first row and print other rows
+
+# df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv' , header = None)  # This will skip first row and print other rows 
 
 # print(df)
 
-# df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv' , header = None) // This will print numbers in place of first column , if any header is not present
+# df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv' , header = None) // This will print numbers in place of first column , if any header is not present 
 
 # df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv' , nrows = 5)  # This will print the number of rows given
 
@@ -98,7 +99,7 @@ df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv')
 
 # df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv' , na_values = ["Not avaialable" , "n.a."])  # This will make the not availabke values as NaN.
 
-# df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv' , na_values = {'Data.Precipitation' : ["0.0" , "n.a."]})  # This will change the 0.0 values to NaN in Data.Precipitation column
+# df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv' , na_values = {'Data.Precipitation' : ["0.0" , "n.a."]})  # This will change the 0.0 values to NaN in Data.Precipitation column 
 
 # print(df)
 
@@ -106,21 +107,11 @@ df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv')
 
 # df.to_csv('Hello.csv')  # By doing this we had copied our data frame into Hello.csv
 
-# df.to_csv('Hello.csv' , index = False)  # By doing this we had copied our data frame into Hello.csv
+df.to_csv('Hello.csv' , index = False)  # By doing this we had copied our data frame into Hello.csv
 
 # The above will remove the row nos.
 
-# I we want to eport specific columns in the Hello.csv
+# I we want to eport specific columns in the Hello.csv 
 
-# df.to_csv('Hello.csv' , columns = ['Data.Precipitation' , 'Station.City'])
-
-# df.to_csv('Hello.csv', header=False)  # Removing the header
-
-# ------------------------------------------------------ #
-
-# Reading xlsx files :
-
-dx = pd.read_excel(
-    'C:\\Users\\hp\\Desktop\\python\\xlsx files\\weathstations.xlsx')
-print(dx)
+df.to_csv('Hello.csv' , columns = ['Data.Precipitation' , 'Station.City'])
 
