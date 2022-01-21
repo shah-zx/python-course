@@ -1,7 +1,7 @@
 from email import header
 import pandas as pd
 
-df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv')
+# df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv')
 
 # df stands for data frame
 
@@ -93,19 +93,10 @@ df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv')
 
 # df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv' , header = None) // This will print numbers in place of first column , if any header is not present 
 
-# df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv' , nrows = 5)  # This will print the number of rows given
+df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv' , nrows = 5)  # This will print the number of rows given
 
-# print(df)
+print(df)
 
-# df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv' , na_values = ["Not avaialable" , "n.a."])  # This will make the not availabke values as NaN.
-
-# df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv' , na_values = {'Data.Precipitation' : ["0.0" , "n.a."]})  # This will change the 0.0 values to NaN in Data.Precipitation column 
-
-# print(df)
-
-# making our own csv 👍
-
-df.to_csv('Hello.csv')  # By doing this we had copied our data frame into Hello.csv
-
+df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv' , na_values = ["Not avaialable" , "n.a."])  # This will make the not availabke values as NaN.
 
 

@@ -1,7 +1,7 @@
 from email import header
 import pandas as pd
 
-df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv')
+# df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv')
 
 # df stands for data frame
 
@@ -105,7 +105,5 @@ df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv')
 
 # making our own csv 👍
 
-df.to_csv('Hello.csv')  # By doing this we had copied our data frame into Hello.csv
-
-
+df.to_csv('Hello.csv')
 
