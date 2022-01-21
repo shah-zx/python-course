@@ -91,8 +91,6 @@ df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv' , header 
 
 print(df)
 
-# df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv' , header = None) // This will print numbers in place of first column , if any header is not present 
-
 
 
 

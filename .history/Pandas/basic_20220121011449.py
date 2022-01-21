@@ -83,15 +83,12 @@ import pandas as pd
 
 # print(df)
 
-# df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv' , header = 1)  # This will skip first row and print other rows 
-
-
-
-df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv' , header = None)  # This will skip first row and print other rows 
+df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv' , header = 1)  # This will skip first row and print other rows 
 
 print(df)
 
-# df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv' , header = None) // This will print numbers in place of first column , if any header is not present 
+
+
 
 
 

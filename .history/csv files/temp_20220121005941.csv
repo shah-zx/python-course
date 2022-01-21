@@ -1,4 +1,4 @@
-
+"Hello" , "Khelo" , "Kudo" , "Mauj" , "Kro" , "Masti" , "karo"
 "Data.Precipitation","Date.Full","Date.Month","Date.Week of","Date.Year","Station.City","Station.Code","Station.Location","Station.State","Data.Temperature.Avg Temp","Data.Temperature.Max Temp","Data.Temperature.Min Temp","Data.Wind.Direction","Data.Wind.Speed"
 "0.0","2016-01-03","1","3","2016","Birmingham","BHM","Birmingham, AL","Alabama","39","46","32","33","4.33"
 "0.0","2016-01-03","1","3","2016","Huntsville","HSV","Huntsville, AL","Alabama","39","47","31","32","3.86"

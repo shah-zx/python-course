@@ -1,7 +1,6 @@
-from email import header
 import pandas as pd
 
-# df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv')
+df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv')
 
 # df stands for data frame
 
@@ -19,35 +18,35 @@ import pandas as pd
 
 # print(df['Station.Code'][df['Station.Location'] == 'Birmingham, AL'])
 
-# print(df.shape)
+print(df.shape)
 
-# # gives r and c's
+# gives r and c's
 
-# # print(df.columns)
+# print(df.columns)
 
-# rows , columns = df.shape
+rows , columns = df.shape
 
-# print(columns)
+print(columns)
 
-# print(rows)
+print(rows)
 
-# print(df.head())
+print(df.head())
 
-# print(df.head(3))
+print(df.head(3))
 
-# print(df.tail(4))
+print(df.tail(4))
 
-# print(df['Data.Precipitation'])
+print(df['Data.Precipitation'])
 
-# print(type(df['Data.Precipitation']))
+print(type(df['Data.Precipitation']))
 
-# print(df[['Data.Precipitation' , 'Date.Full']])
+print(df[['Data.Precipitation' , 'Date.Full']])
 
-# print(df['Data.Precipitation'].std())
+print(df['Data.Precipitation'].std())
 
-# # The above is the standard deviation
+# The above is the standard deviation
 
-# print(df.describe)
+print(df.describe)
 
 # The above method prints the statistics of our data
 
@@ -83,15 +82,11 @@ import pandas as pd
 
 # print(df)
 
-# df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv' , header = 1)  # This will skip first row and print other rows 
-
-
-
-df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv' , header = None)  # This will skip first row and print other rows 
-
+df = pd.read_csv("temp.csv")
 print(df)
 
-# df = pd.read_csv('C:\\Users\\hp\\Desktop\\python\\csv files\\temp.csv' , header = None) // This will print numbers in place of first column , if any header is not present 
+
+
 
 
 
